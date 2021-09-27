@@ -35,7 +35,7 @@ public class PowerSwitch extends NiRectangle implements MouseListener, Observabl
 	
 	@Override
 	public void mouseClicked(MouseEvent e) {
-		this.closed = !this.closed;
+		this.switchState();
 		this.notifyObservers(this.closed);
 		e.consume();
 	}

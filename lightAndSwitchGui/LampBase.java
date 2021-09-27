@@ -29,7 +29,7 @@ public class LampBase extends NiRectangle implements Observer {
 
 	@Override
 	public void updateFrom(Observable o, Object arg) {
-		this.label.setText(Boolean.valueOf((boolean) arg) ? "Allume" : "Eteinte");
+		this.label.setText(Boolean.valueOf((boolean) arg) ? "Allumeee" : "Eteinte");
 	}
 
 }
